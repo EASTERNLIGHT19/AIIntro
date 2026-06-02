@@ -81,7 +81,7 @@ if __name__ == '__main__':
     # ==========================================
     # 모델 학습 및 평가 루프
     # ==========================================
-    print(" 학습 & 평가를 시작합니다.")
+    print(" 학습 및 평가를 시작합니다.")
     for epoch in range(num_epochs):
         
         # [훈련 페이즈]
@@ -128,7 +128,7 @@ if __name__ == '__main__':
     # ==========================================
     # '정확도 변화 추이' 그래프 출력
     # ==========================================
-    print("\n 학습 완료, 정확도 추이 그래프를 화면에 출력합니다.")
+    print("\n 학습 완료!, 정확도 추이 그래프를 화면에 출력합니다.")
     plt.figure(figsize=(8, 6))
     plt.plot(range(1, num_epochs+1), train_accuracies, label='Train Accuracy', color='blue', marker='o')
     plt.plot(range(1, num_epochs+1), test_accuracies, label='Test Accuracy', color='red', marker='x')
